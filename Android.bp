@@ -1,0 +1,14 @@
+soong_namespace {
+}
+
+android_app_import {
+	name: "Camera",
+	owner: "xiaomi",
+	apk: "proprietary/product/app/Camera/Camera.apk",
+	overrides: ["Aperture", "Camera2"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
