@@ -1,6 +1,6 @@
 
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/xiaomi/peridot-gcam
+    vendor/xiaomi/sky-gcam
 
 
 PRODUCT_PACKAGES += \
