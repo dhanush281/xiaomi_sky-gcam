@@ -5,7 +5,7 @@ android_app_import {
 	name: "Camera",
 	owner: "xiaomi",
 	apk: "proprietary/product/app/Camera/Camera.apk",
-	overrides: ["Aperture", "Camera2"],
+	overrides: ["Aperture", "Camera2", "MusicFX", "AudioFX"],
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
